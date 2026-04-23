@@ -1,4 +1,4 @@
-###Projeto Sabor Restaurante
+# Projeto Sabor Restaurante
 
 Este projeto consiste no desenvolvimento de um site para restaurante, criado com foco em praticar habilidades de desenvolvimento front-end e construção de interfaces web modernas.
 
@@ -6,7 +6,7 @@ O site foi desenvolvido utilizando HTML, CSS e JavaScript, com organização dos
 
 
 
-##Tecnologias utilizadas
+# Tecnologias utilizadas
 
 HTML
 CSS
@@ -18,6 +18,6 @@ Estilização visual com CSS
 Interações básicas com JavaScript
 Design voltado para apresentação de produtos ou serviços
 
-##Objetivo do projeto
+# Objetivo do projeto
 
 Este projeto foi desenvolvido com fins de aprendizado e prática em desenvolvimento web front-end, com foco em criação de interfaces, organização de código e publicação de projetos no GitHub.

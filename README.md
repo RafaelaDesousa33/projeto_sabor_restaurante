@@ -4,6 +4,8 @@ Este projeto consiste no desenvolvimento de um site para restaurante, criado com
 
 O site foi desenvolvido utilizando HTML, CSS e JavaScript, com organização dos arquivos em pastas separadas para estilos, scripts e imagens. O objetivo do projeto é simular um site real de restaurante, apresentando layout visual, estrutura de navegação e interatividade básica.
 
+<img src="site_hamburgueria_sabor_restaurante_foto.png" alt="imagem do projeto">
+
 
 
 # Tecnologias utilizadas

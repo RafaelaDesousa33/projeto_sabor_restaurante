@@ -1,4 +1,4 @@
-##Projeto Sabor Restaurante
+###Projeto Sabor Restaurante
 
 Este projeto consiste no desenvolvimento de um site para restaurante, criado com foco em praticar habilidades de desenvolvimento front-end e construção de interfaces web modernas.
 

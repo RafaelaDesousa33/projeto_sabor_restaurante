@@ -94,7 +94,7 @@
 #container_header_content header {
     display: flex;
     justify-content: space-around;
-    background: url("/sabor_restaurante/imagens/imagem_cabecalho_fundo.png");
+    background: url("../imagens/imagem_cabecalho_fundo.png");
     padding-bottom: 40px;
 
 }

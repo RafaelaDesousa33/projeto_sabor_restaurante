@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabor Restaurante</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="imagens/talheres_icone.png" type="image/x-icon">
+
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!--font-awesone 5-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
+</head>
+
+<body style="background-color: #ddd;">
+
+
+    <header id="header_main_navbar">
+
+        <nav class="navbar navbar-expand-lg" id="navbar-main-nav">
+
+            <div class="container-fluid">
+
+                <a class="navbar-brand" href="#">
+                    <img src="imagens/talheres_icone.png" alt="icone talheres">
+
+                    <div class="navbar_brand_text">
+
+                        <span class="span_navbar_brand_white">Sabor</span>
+                        <span class="span_navbar_brand"> Restaurante</span>
+
+                    </div><!--fim "navbar_brand_text-->
+
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+                    <span class="navbar-toggler-icon">
+                        <i class="fas fa-bars"></i>
+                    </span>
+
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+
+
+                        <li class="nav-item ">
+                            <a class="nav-link btn-custom-link btn btn-warning" href="#" tabindex="-1"
+                                aria-disabled="true">Faça seu pedido</a>
+                        </li>
+
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+
+    <div id="container_header_content">
+        <header>
+
+            <div id="container_header_content_text">
+
+                <p class="p_bem_vindo">-- Bem vindo ao sabor</p>
+
+                <h1>Uma Experiência<br> Única para <span class="container_header_content_text_span">Seu
+                        Paladar</span> </h1>
+
+                <p class="p_info">Ingredientes frescos, receitas exclusivas e um ambiente<br> acolhedor. Venha viver
+                    momentos
+                    inesqueciveis!</p>
+
+                <button id="btn_ver_cardapio"> <img src="imagens/talheres_icone_black.png" alt="icone talheres pretos">
+                    Ver cardapio </button>
+
+                <button id="btn_reserva">Fazer Reserva</button>
+
+            </div><!--fim container_header_content_text-->
+
+
+
+            <div id="container_header_content_img">
+                <img src="imagens/imagem_hambuguer_cabecalho_fundo.png" alt="imagem hambuguer">
+
+            </div><!--fim container_header_content_img-->
+
+        </header>
+
+    </div><!--fim container_header_content-->
+
+
+
+
+    <div id="container_header_content_details">
+        <header>
+
+            <div class="details_box">
+
+                <div class="details_box_img">
+                    <img src="imagens/clock_icone.png" alt="icone de relogio">
+
+                </div>
+
+
+                <div class="details_box_text">
+                    <h5>Funcionamento</h5>
+                    <p>11:00 - 23:00</p>
+
+                </div>
+
+            </div>
+
+
+            <div class="details_box">
+
+                <div class="details_box_img">
+                    <img src="imagens/localizacao_icone.png" alt="icone de localizacao">
+
+                </div>
+
+
+                <div class="details_box_text">
+                    <h5>Localização</h5>
+                    <p>Rua das Flores, 123</p>
+
+                </div>
+
+            </div>
+
+
+            <div class="details_box">
+
+                <div class="details_box_img">
+                    <img src="imagens/telephone_icone.png" alt="icone de telefone">
+
+                </div>
+
+
+                <div class="details_box_text">
+                    <h5>Telefone</h5>
+                    <p>(11) 99999-9999</p>
+
+                </div>
+
+            </div>
+
+        </header>
+
+    </div><!--fim container_header_content_details-->
+
+
+
+
+
+
+
+    <main>
+
+        <section id="section_cardapio">
+
+            <div id="container_cardapio">
+
+                <p class="p_nosso_cardapio">Nosso Cardapio</p>
+                <h5>Destaques do Chef</h5>
+                <p class="p_info_cardapio">Pratos preparados com carinho e ingredientes selecionados</p>
+
+
+                <div id="container_cardapio_itens">
+
+
+                </div><!--fim container_cardapio_itens-->
+
+
+            </div><!--fim container_cardapio-->
+
+        </section><!--fim section_cardapio-->
+
+
+        <section id="sobre-nos">
+
+            <div id="container_sobre_nos">
+
+                <div id="container_sobre_nos_img">
+                    <img src="imagens/imagem_restaurante.png" alt="imagem restaurante">
+
+                </div><!--fim container_sobre_nos_img-->
+
+                <div id="container_sobre_nos_texto">
+                    <p class="p_title">Sobre nós</p>
+
+                    <h2>Paixão por Gastronomia</h2>
+
+                    <p class="p_sobre_nos">O restaurante Sabor nasceu do sonho de criar experiências<br> únicas através
+                        da comida. Nossa
+                        missão é combinar ingredientes<br> frescos, técnicas culinárias especiais e um atendimento<br>
+                        excepcional para proporcionar momentos inesqueciveis.</p>
+
+
+                    <div id="container_sobre_nos_texto__itens">
+                        <div class="box_itens">
+                            <img src="imagens/chapeu_cozinha_icone.png" alt="icone de chapeu de cozinha">
+                            <h5>Chef Especializado</h5>
+
+                            <p>Profissionais apaixonados<br> pela culinária.</p>
+
+                        </div>
+
+                        <div class="box_itens">
+                            <img src="imagens/ingredientes_icone.png" alt="icone ingredientes">
+                            <h5>Ingredientes Frescos</h5>
+
+                            <p>Selecionados diariamente<br> com qualidade premium.</p>
+
+                        </div>
+
+
+                        <div class="box_itens">
+                            <img src="imagens/coracao_icone.png" alt="icone coracao">
+                            <h5>Ambiente Acolhedor</h5>
+
+                            <p>Espaço pensado para<br> momentos especiais.</p>
+
+                        </div>
+
+                    </div><!--fim container_sobre_nos_texto__itens-->
+
+                </div><!--fim container_sobre_nos_texto-->
+
+
+            </div><!--fim container_sobre_nos-->
+
+
+
+        </section><!--fim sobre-nos-->
+
+
+        <section id="feedbacks">
+
+            <div id="container_feedbacks">
+                <p class="p_title_depoimentos">Depoimentos</p>
+                <h2>O Que Nossos Clientes Dizem</h2>
+
+
+                <div id="container_feedback_itens">
+
+                    <div class="box_feedback">
+                        <div class="box_feedback_img">
+                            <img src="imagens/usuario1_icone.png" alt="icone usuario">
+                        </div><!--fim box_feedback_img-->
+
+                        <div class="box_feedback_text">
+                            <img src="imagens/imagem_feedback_estrela.png" alt="estrela feedback">
+
+                            <p class="text_feedback">"Comida incrivel e atendimento impecável<br> O melhor restaurante
+                                da cidade."</p>
+
+                            <p class="p_usuario_name">Ana Silva</p>
+
+                        </div><!--fim box_feedback_text-->
+
+                    </div><!--fim box-feedback-->
+
+
+
+                    <div class="box_feedback">
+                        <div class="box_feedback_img">
+                            <img src="imagens/usuario2_icone.png" alt="icone usuario">
+                        </div><!--fim box_feedback_img-->
+
+                        <div class="box_feedback_text">
+                            <img src="imagens/imagem_feedback_estrela.png" alt="estrela feedback">
+
+                            <p class="text_feedback">"Ambiente perfeito para ocasiões especiais<br> Sempre volto."</p>
+
+                            <p class="p_usuario_name">Carlos Mendes</p>
+
+                        </div><!--fim box_feedback_text-->
+
+                    </div><!--fim box_feedback-->
+
+
+                    <div class="box_feedback">
+                        <div class="box_feedback_img">
+                            <img src="imagens/usuario3_icone.png" alt="icone usuario">
+                        </div><!--fim box_feedback_img-->
+
+                        <div class="box_feedback_text">
+                            <img src="imagens/imagem_feedback_estrela.png" alt="estrela feedback">
+                            <p class="text_feedback">"Os pratos são maravilhosos e o preço<br> é justo. Recomendo
+                                demais."</p>
+
+                            <p class="p_usuario_name">Juliana Costa</p>
+
+
+                        </div><!--fim box_feedback_text-->
+
+                    </div><!--fim box_feedback-->
+
+
+                </div><!--fim container_feedback_itens-->
+
+
+            </div><!--fim container_feedbacks-->
+
+        </section><!--fim feedbacks-->
+
+
+
+        <section id="section_reserva">
+
+            <div id="container_reserva">
+
+                <div id="container_reserva_form">
+                    <p class="p_title">Faça sua reserva</p>
+                    <h2>Reserve sua Mesa</h2>
+
+                    <div id="container_reserva_form_inputs">
+
+                        <form>
+
+
+                            <div id="container_inputs1">
+                                <input type="text" name="name_user" placeholder="Nome Completo">
+                                <input type="date" name="date" placeholder="Data">
+                                <input type="number" name="number_people" placeholder="Numero de Pessoa">
+
+                                <button class="btn_reserva">Confirmar reserva</button>
+
+                            </div><!--fim container_inputs1-->
+
+                            <div id="container_inputs2">
+                                <input type="text" name="user_telephone" placeholder="Telefone">
+                                <input type="time" name="hour" placeholder="Horário">
+                                <input type="text" name="observacoes" placeholder="Observações">
+
+
+                            </div><!--fim container_inputs2-->
+
+                        </form>
+
+                    </div><!--fim container_reserva_form_inputs-->
+
+                </div><!--fim container_reserva_form-->
+
+                <div id="container_reserva_img">
+                    <img src="imagens/imagem_taças.jpg" alt="imagem taças">
+
+                </div><!--fim container_reserva_img-->
+
+            </div><!--fim container_reserva-->
+
+        </section><!--fim section_reserva-->
+
+
+    </main>
+
+
+    <footer>
+        <div id="container_footer">
+            <p>&copy; Restaurante Sabor. Todos os direitos reservados.</p>
+
+        </div><!--fim container_footer-->
+    </footer>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
